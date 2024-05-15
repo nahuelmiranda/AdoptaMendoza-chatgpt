@@ -1,0 +1,97 @@
+/* Resetear estilos */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilos generales */
+body {
+    font-family: Helvetica, Arial, sans-serif;
+    /* Cambio de fuente a Helvetica */
+    background-color: #fff;
+    /* Fondo blanco en modo claro */
+    color: #333;
+    /* Letras negras */
+}
+
+header h2 {
+    padding: 0%;
+}
+
+main h2 {
+    color: #DED3F9;
+    padding: 1em;
+}
+
+h3 {
+    color: #DED3F9;
+    padding: 1em;
+}
+
+.img-perro {
+    display: flex;
+    justify-content: center;
+    padding: 3em;
+}
+
+.img-gato {
+    display: flex;
+    justify-content: center;
+    padding: 3em;
+}
+
+header {
+    background-color: #8D68E1;
+    color: #DED3F9;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.tituloadopta {
+    color: white;
+}
+
+main {
+    max-width: 960px;
+    margin: 20px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+a {
+    display: flex;
+    justify-content: center;
+    color: #8D68E1;
+}
+
+/* Estilos para el botón de alternar modo */
+#themeToggle {
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+#themeToggle:hover {
+    background-color: #333;
+}
+
+/* Estilos para el modo oscuro */
+.dark-mode {
+    background-color: #000;
+    /* Fondo negro en modo oscuro */
+    color: #fff;
+    /* Letras blancas en modo oscuro */
+}
